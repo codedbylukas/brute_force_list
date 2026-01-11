@@ -44,5 +44,6 @@ def main():
     if length is not None:
         open_file(length)
         print(f"Done. The file {file_name} has been created.")
-
-main()
+if __name__ == "__main__": 
+    main()
+    
