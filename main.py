@@ -6,10 +6,10 @@ import os
 buffer_size = 1000  # Number of combinations to buffer
 buffer = []  # Buffer for combinations
 chars = string.ascii_letters + string.digits + string.punctuation
-
+# Create directory for wordlist files if it doesn't exist
 os.mkdir("wordlist") if not os.path.exists("wordlist") else None
 os.chdir("wordlist")
-
+# Get file name from user
 file_name = input("Enter the file name: ").strip()
 if os.path.exists(file_name):
     print(f"The file {file_name} already exists. Please choose another name.")
@@ -33,10 +33,9 @@ def open_file(length):
                 if len(buffer) >= buffer_size:
                     f.writelines(buffer)
                     buffer.clear()
-                    t.sleep(0.01)  # Short pause to reduce CPU usage
-        # Write remaining combinations in the buffer to the file
+                    t.sleep(0.01)  # Short pause to reduce CPU usage 
         if buffer:
-            f.writelines(buffer)
+            f.writelines(buffer) # Write remaining combinations in the buffer to the file
 
 def main():
     # Characters to be combined
