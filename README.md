@@ -7,7 +7,7 @@ It is intended for educational purposes, CTFs, and controlled security testing e
 - a Python script
 - a standalone Windows .exe file (no Python installation required)
 
-## 🔧 Features:
+## Features:
 
 1. Uses all printable ASCII characters:
 - letters (uppercase & lowercase)
@@ -23,7 +23,7 @@ It is intended for educational purposes, CTFs, and controlled security testing e
 - main.py
 - compiled.exe
 
-## ▶ How to Use: 
+## How to Use: 
 - Python version:
 
 1. Run main.py
@@ -37,19 +37,19 @@ It is intended for educational purposes, CTFs, and controlled security testing e
 
 #### No Python installation required.
 
-## 🧪 Example: 
+## Example: 
 
 Enter the file name: example_wordlist.txt
 Enter the maximum length of combinations: 2
 Generating wordlist...
 Done. The file "example_wordlist.txt" has been created.
 
-## 🛡 Requirements: 
+## Requirements: 
 
 - Python 3.x (only for the script version)
 - No dependencies
 - EXE version runs standalone on Windows
-## ⚠ Notes: 
+## Notes: 
 The number of generated combinations grows exponentially. 
 
 Even small lengths can produce extremely large files. 
