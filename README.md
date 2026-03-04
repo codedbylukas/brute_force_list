@@ -21,7 +21,7 @@ It is intended for educational purposes, CTFs, and controlled security testing e
 
 6. Works as:
 - main.py
-- compiled.exe
+- main.exe
 
 ## How to Use: 
 - Python version:
